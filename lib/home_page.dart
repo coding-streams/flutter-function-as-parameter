@@ -9,13 +9,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  bool centerTitle = false;
-
+  var centerTitle = false;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Coding Streams'),
+        title: const Text("Coding Streams"),
         centerTitle: centerTitle,
       ),
       body: Center(

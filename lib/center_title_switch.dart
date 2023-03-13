@@ -16,15 +16,17 @@ class CenterTitleSwitch extends StatelessWidget {
       value: centerTitle,
       onChanged: onChanged,
       title: const Text("Center Title"),
-      subtitle: const Text("Centers AppBar Title"),
+      subtitle: const Text("Changes appbar title to center"),
     );
   }
 }
 
-
 // Function -> return type, function name, parameters(no. of parameters, type, name), function body
+
 // Function Signature -> return type, parameters(no. of parameters, type)
 
 // Widget build(BuildContext context) -> Widget Function(BuildContext)
 
-// void Function(bool) onChanged -> void Function(bool)
+// void Function(bool)
+
+// Function onChanged -> dynamic Function()
